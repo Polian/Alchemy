@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="13-ea" class="java.beans.XMLDecoder">
+ <object class="org.alchemy.core.AlcShape">
+  <object class="java.awt.geom.GeneralPath">
+   <void property="windingRule">
+    <int>1</int>
+   </void>
+   <void method="moveTo">
+    <float>158.0</float>
+    <float>150.0</float>
+   </void>
+   <void method="lineTo">
+    <float>158.0</float>
+    <float>151.0</float>
+   </void>
+   <void method="lineTo">
+    <float>158.0</float>
+    <float>152.0</float>
+   </void>
+   <void method="lineTo">
+    <float>159.0</float>
+    <float>153.0</float>
+   </void>
+   <void method="lineTo">
+    <float>160.0</float>
+    <float>158.0</float>
+   </void>
+   <void method="lineTo">
+    <float>162.0</float>
+    <float>163.0</float>
+   </void>
+   <void method="lineTo">
+    <float>164.0</float>
+    <float>169.0</float>
+   </void>
+   <void method="lineTo">
+    <float>167.0</float>
+    <float>174.0</float>
+   </void>
+   <void method="lineTo">
+    <float>170.0</float>
+    <float>179.0</float>
+   </void>
+   <void method="lineTo">
+    <float>173.0</float>
+    <float>185.0</float>
+   </void>
+   <void method="lineTo">
+    <float>178.0</float>
+    <float>189.0</float>
+   </void>
+   <void method="lineTo">
+    <float>182.0</float>
+    <float>194.0</float>
+   </void>
+   <void method="lineTo">
+    <float>187.0</float>
+    <float>198.0</float>
+   </void>
+   <void method="lineTo">
+    <float>192.0</float>
+    <float>201.0</float>
+   </void>
+   <void method="lineTo">
+    <float>198.0</float>
+    <float>204.0</float>
+   </void>
+   <void method="lineTo">
+    <float>203.0</float>
+    <float>206.0</float>
+   </void>
+   <void method="lineTo">
+    <float>209.0</float>
+    <float>208.0</float>
+   </void>
+   <void method="lineTo">
+    <float>214.0</float>
+    <float>209.0</float>
+   </void>
+   <void method="lineTo">
+    <float>219.0</float>
+    <float>210.0</float>
+   </void>
+   <void method="lineTo">
+    <float>225.0</float>
+    <float>210.0</float>
+   </void>
+   <void method="lineTo">
+    <float>231.0</float>
+    <float>211.0</float>
+   </void>
+   <void method="lineTo">
+    <float>237.0</float>
+    <float>211.0</float>
+   </void>
+   <void method="lineTo">
+    <float>243.0</float>
+    <float>212.0</float>
+   </void>
+   <void method="lineTo">
+    <float>250.0</float>
+    <float>212.0</float>
+   </void>
+   <void method="lineTo">
+    <float>256.0</float>
+    <float>212.0</float>
+   </void>
+   <void method="lineTo">
+    <float>263.0</float>
+    <float>213.0</float>
+   </void>
+   <void method="lineTo">
+    <float>269.0</float>
+    <float>213.0</float>
+   </void>
+   <void method="lineTo">
+    <float>274.0</float>
+    <float>214.0</float>
+   </void>
+   <void method="lineTo">
+    <float>279.0</float>
+    <float>215.0</float>
+   </void>
+   <void method="lineTo">
+    <float>284.0</float>
+    <float>216.0</float>
+   </void>
+   <void method="lineTo">
+    <float>289.0</float>
+    <float>219.0</float>
+   </void>
+   <void method="lineTo">
+    <float>293.0</float>
+    <float>223.0</float>
+   </void>
+   <void method="lineTo">
+    <float>297.0</float>
+    <float>227.0</float>
+   </void>
+   <void method="lineTo">
+    <float>300.0</float>
+    <float>232.0</float>
+   </void>
+   <void method="lineTo">
+    <float>303.0</float>
+    <float>237.0</float>
+   </void>
+   <void method="lineTo">
+    <float>306.0</float>
+    <float>242.0</float>
+   </void>
+   <void method="lineTo">
+    <float>307.0</float>
+    <float>247.0</float>
+   </void>
+   <void method="lineTo">
+    <float>309.0</float>
+    <float>252.0</float>
+   </void>
+   <void method="lineTo">
+    <float>311.0</float>
+    <float>257.0</float>
+   </void>
+   <void method="lineTo">
+    <float>313.0</float>
+    <float>262.0</float>
+   </void>
+   <void method="lineTo">
+    <float>315.0</float>
+    <float>267.0</float>
+   </void>
+   <void method="lineTo">
+    <float>318.0</float>
+    <float>272.0</float>
+   </void>
+  </object>
+  <object class="java.awt.Color">
+   <int>255</int>
+   <int>255</int>
+   <int>255</int>
+   <int>255</int>
+  </object>
+  <int>255</int>
+  <int>2</int>
+  <float>1.0</float>
+  <void property="lastPoint">
+   <object class="java.awt.geom.Point2D$Float" id="Point2D$Float0">
+    <void class="java.awt.geom.Point2D$Float" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Float0"/>
+      <float>318.0</float>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Float" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Float0"/>
+      <float>272.0</float>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void property="totalPoints">
+   <int>43</int>
+  </void>
+ </object>
+</java>

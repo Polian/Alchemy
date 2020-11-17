@@ -113,6 +113,7 @@ class AlcExportDialog extends JDialog implements AlcConstants {
                     IIOImage image = new IIOImage(bitmapImage, null, null);
                     writer.write(null, image, iwp);
                     writer.dispose();
+                    output.close();
 
 //                    ImageIO.write((BufferedImage) bitmapImage, imageFormat, file);
 

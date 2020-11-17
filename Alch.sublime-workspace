@@ -1,0 +1,1271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vesse",
+				"VesselVolumeRadius"
+			],
+			[
+				"scale",
+				"Scale"
+			],
+			[
+				"Lantern",
+				"LanternTopClose"
+			],
+			[
+				"close",
+				"CloseViewWindow"
+			],
+			[
+				"Close",
+				"createCloseViewScene"
+			],
+			[
+				"scene",
+				"SceneLayerDepth"
+			],
+			[
+				"Sand",
+				"SandboxWindow"
+			],
+			[
+				"fuel",
+				"TotalFuel"
+			],
+			[
+				"scenela",
+				"SceneLayerDepth"
+			],
+			[
+				"sandbox",
+				"SandboxWindow"
+			],
+			[
+				"setb",
+				"setBodyType"
+			],
+			[
+				"setdefaul",
+				"setDefaultDensity"
+			],
+			[
+				"state",
+				"State"
+			],
+			[
+				"push",
+				"pushStrength"
+			],
+			[
+				"sprite",
+				"Sprite"
+			],
+			[
+				"lantern",
+				"Lantern"
+			],
+			[
+				"seed",
+				"Seed"
+			],
+			[
+				"pull",
+				"pullJointID"
+			],
+			[
+				"Base",
+				"BaseColorPick"
+			],
+			[
+				"Blend",
+				"BlendColorPick"
+			],
+			[
+				"this",
+				"this"
+			],
+			[
+				"setspriteimage",
+				"setSpriteImageFrame"
+			],
+			[
+				"onTouch",
+				"onTouchDown"
+			],
+			[
+				"getsprited",
+				"getSpriteDataObject"
+			],
+			[
+				"bankwid",
+				"bankWidth1"
+			],
+			[
+				"getSprite",
+				"getSpriteLocalPosition"
+			],
+			[
+				"setspitec",
+				"setSpriteBlendColor"
+			],
+			[
+				"positio",
+				"position2"
+			],
+			[
+				"getsprite",
+				"getSpriteLocalPosition"
+			],
+			[
+				"Player",
+				"PlayerLayer"
+			],
+			[
+				"Folia",
+				"FoliageLightLayer"
+			],
+			[
+				"setSpriteim",
+				"setSpriteImageFrame"
+			],
+			[
+				"update",
+				"updateCounter"
+			],
+			[
+				"mySCene",
+				"mySceneWindow"
+			],
+			[
+				"mom",
+				"stepMomentum"
+			],
+			[
+				"current",
+				"currentMaxSpeed"
+			],
+			[
+				"step",
+				"stepLeft"
+			],
+			[
+				"getSpr",
+				"getSpriteVisible"
+			],
+			[
+				"Light",
+				"LightModule"
+			],
+			[
+				"setspri",
+				"setSpriteImage"
+			],
+			[
+				"setsp",
+				"setSpriteAngle"
+			],
+			[
+				"Head",
+				"Head"
+			],
+			[
+				"player",
+				"playerPosition"
+			],
+			[
+				"Body",
+				"BodyType"
+			],
+			[
+				"Collis",
+				"CollisionGroups"
+			],
+			[
+				"Pl",
+				"PlayerLayer"
+			],
+			[
+				"angle",
+				"angleAdjustment"
+			],
+			[
+				"direc",
+				"directionFlag"
+			],
+			[
+				"start",
+				"start"
+			],
+			[
+				"myscene",
+				"mySceneWindow"
+			],
+			[
+				"myscee",
+				"mySceneWindow"
+			],
+			[
+				"myScene",
+				"mySceneWindow"
+			],
+			[
+				"Clas",
+				"Class"
+			],
+			[
+				"Ident",
+				"Identifier"
+			],
+			[
+				"decl",
+				"Decl"
+			],
+			[
+				"root",
+				"RootNode"
+			],
+			[
+				"Return",
+				"ReturnValue"
+			],
+			[
+				"Const",
+				"ConstantIR"
+			],
+			[
+				"test",
+				"testLabel"
+			],
+			[
+				"_MO",
+				"_MOVSS"
+			],
+			[
+				"globa",
+				"globalIRList"
+			],
+			[
+				"Class",
+				"ClassString"
+			],
+			[
+				"Print",
+				"PrintSpecificInfo"
+			],
+			[
+				"lab",
+				"LabelIR"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"add",
+				"addIRToList"
+			],
+			[
+				"label",
+				"labelCount"
+			],
+			[
+				"create",
+				"createIR"
+			],
+			[
+				"ROO",
+				"RootNode"
+			],
+			[
+				"IR",
+				"m_IRList"
+			],
+			[
+				"declara",
+				"declaratorList"
+			],
+			[
+				"Pointer",
+				"Pointer"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"Para",
+				"ParameterDeclaration"
+			],
+			[
+				"find",
+				"findType"
+			],
+			[
+				"delete",
+				"deleteType"
+			],
+			[
+				"drop",
+				"drop"
+			],
+			[
+				"getIte",
+				"getItemSpace"
+			],
+			[
+				"H",
+				"H1\tTag"
+			],
+			[
+				"answe",
+				"answerKey"
+			],
+			[
+				"ans",
+				"answerKey"
+			],
+			[
+				"user",
+				"userAnswers"
+			],
+			[
+				"button",
+				"buttonPressed"
+			],
+			[
+				"get",
+				"getPage"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-collapse"
+			],
+			[
+				"table",
+				"table-column"
+			],
+			[
+				"tabl",
+				"table-column"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/org/alchemy/create/PolianPressureShapes.java",
+			"settings":
+			{
+				"buffer_size": 9594,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/org/alchemy/core/AlcCanvas.java",
+			"settings":
+			{
+				"buffer_size": 72102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 166 files for \"save page\"\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcResourceBundle.properties:\n   55  sessionTitle = Session\n   56  \n   57: savePageTitle = Save Page\n   58: saveClearTitle = Save Page & Clear\n   59  recordingTitle = Auto Record\n   60  recordIntervalTitle = Record Interval\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcSession.java:\n   76  \n   77              int interval = Alchemy.preferences.sessionRecordingInterval;\n   78:             //Set up timer to save pages into the pdf\n   79              if (timer == null) {\n   80                  timer = new javax.swing.Timer(interval, this);\n\n3 matches across 2 files\n\n\nSearching 166 files for \"paintcomponent\"\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcCanvas.java:\n  237       */\n  238      @Override\n  239:     public void paintComponent(Graphics g) {\n  240:         super.paintComponent(g);\n  241          Graphics2D g2 = (Graphics2D) g;\n  242          java.awt.Rectangle visibleRect = this.getVisibleRect();\n  ...\n 1469          if (transparent) {\n 1470              vectorCanvas.transparent = true;\n 1471:             vectorCanvas.paintComponent(g2);\n 1472              vectorCanvas.transparent = false;\n 1473          } else {\n 1474  //            vectorCanvas.transparent = false;\n 1475              if (vectorMode) {\n 1476:                 vectorCanvas.paintComponent(g2);\n 1477              } else {\n 1478:                 this.paintComponent(g2);\n 1479              }\n 1480          }\n ....\n 1598          g2p.setClip(0, 0, size.width, size.height);\n 1599  \n 1600:         // Finally, print the component by calling the paintComponent() method.\n 1601          // Or, call paint() to paint the component, its background, border, and\n 1602          // children, including the Print JButton\n 1603:         vectorCanvas.paintComponent(g);\n 1604  \n 1605          // Tell the PrinterJob that the pdfReadPage number was valid\n ....\n 1864  \n 1865          @Override\n 1866:         public void paintComponent(Graphics g) {\n 1867  \n 1868:             super.paintComponent(g);\n 1869  \n 1870              width = Alchemy.canvas.getWidth();\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcCheckBoxMenuItem.java:\n  102  \n  103      @Override\n  104:     protected void paintComponent(Graphics g) {\n  105:         super.paintComponent(g);\n  106          if (Alchemy.OS != OS_LINUX && !Alchemy.OS_IS_VISTA) {\n  107              if (!this.getState()) {\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcColorPicker.java:\n  161  \n  162              @Override\n  163:             public void paintComponent(Graphics g) {\n  164  \n  165                  Point pos = this.getLocationOnScreen();\n  ...\n  272  \n  273      @Override\n  274:     protected void paintComponent(Graphics g) {\n  275          this.setOpaque(true);\n  276          Rectangle size = this.getBounds();\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcColorSelector.java:\n  306  \n  307              @Override\n  308:             public void paintComponent(Graphics g) {\n  309                  g.setColor(new Color(red, green, blue));\n  310                  Dimension size = getSize();\n  ...\n  459  \n  460          @Override\n  461:         protected void paintComponent(Graphics g) {\n  462  \n  463              int index = 0;\n  ...\n  576  \n  577          @Override\n  578:         protected void paintComponent(Graphics g) {\n  579  \n  580              int index = 0;\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcColourIO.java:\n  291             cP = new JComponent() {\n  292                @Override\n  293:               public void paintComponent(Graphics g) {\n  294                   g.drawImage(getColorPanelImage(), 0, 0, null);\n  295                }\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcMenuBar.java:\n  969  \n  970      @Override\n  971:     protected void paintComponent(Graphics g) {\n  972          if (Alchemy.OS != OS_MAC) {\n  973              // Make sure this is not painted on Mac\n  974              // The mac menubar is used instead\n  975:             super.paintComponent(g);\n  976          }\n  977      }\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcPaletteTitleBar.java:\n   88      // Override the paint component to draw the gradient bg    \n   89      @Override\n   90:     protected void paintComponent(Graphics g) {\n   91:         super.paintComponent(g);\n   92  \n   93          //int panelWidth = getWidth();\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcPreferences.java:\n  472  //            final Color tabButtonEndColor = new Color(150, 150, 150);\n  473              @Override\n  474:             protected void paintComponent(Graphics g) {\n  475:                 super.paintComponent(g);\n  476                  if (g instanceof Graphics2D) {\n  477                      Graphics2D g2 = (Graphics2D) g;\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcRadioButtonMenuItem.java:\n   97  \n   98      @Override\n   99:     protected void paintComponent(Graphics g) {\n  100:         super.paintComponent(g);\n  101  \n  102          if (Alchemy.OS != OS_LINUX && !Alchemy.OS_IS_VISTA) {\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcSession.java:\n  269              Graphics2D g2pdf = tp.createGraphics(bounds.width, bounds.height);\n  270              Alchemy.canvas.setGuide(false);\n  271:             Alchemy.canvas.vectorCanvas.paintComponent(g2pdf);\n  272              Alchemy.canvas.setGuide(true);\n  273              g2pdf.dispose();\n  ...\n  315          // Ask vectorCanvas to render into the SVG Graphics2D implementation.\n  316          Alchemy.canvas.setGuide(false);\n  317:         Alchemy.canvas.vectorCanvas.paintComponent(svgGenerator);\n  318          Alchemy.canvas.setGuide(true);\n  319          svgGenerator.dispose();\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcSimpleToolBar.java:\n  366  \n  367      @Override\n  368:     protected void paintComponent(Graphics g) {\n  369          g.setColor(color);\n  370          g.fillRect(0, 0, width, height);\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcSingleColorButton.java:\n   54  \n   55              @Override\n   56:             public void paintComponent(Graphics g) {\n   57                  g.drawImage(colorPanelImage, 0, 0, null);\n   58              }\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcSliderCustom.java:\n   83  \n   84      @Override\n   85:     public void paintComponent(Graphics g) {\n   86          Graphics2D g2 = (Graphics2D) g;\n   87          if (bgImage != null) {\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcSpinnerCustom.java:\n  143  \n  144      @Override\n  145:     public void paintComponent(Graphics g) {\n  146          Graphics2D g2 = (Graphics2D) g;\n  147          g2.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_OFF);\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcSwatchColorButton.java:\n   55  \n   56          @Override\n   57:            public void paintComponent(Graphics g) {\n   58                g.drawImage(colorPanelImage, 0, 0, null);\n   59             }\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcToggleButton.java:\n  163  \n  164      @Override\n  165:     protected void paintComponent(Graphics g) {\n  166          if (preferenceButton) {\n  167              if (isSelected()) {\n  ...\n  172              }\n  173          }\n  174:         super.paintComponent(g);\n  175      }\n  176  }\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcToolBarMain.java:\n   47      // Override the paint component to draw the gradient bg    \n   48      @Override\n   49:     protected void paintComponent(Graphics g) {\n   50:         super.paintComponent(g);\n   51  \n   52          //int panelWidth = getWidth();\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\core\\AlcToolBarSub.java:\n   66      // Override the paint component to draw the gradient bg\n   67      @Override\n   68:     protected void paintComponent(Graphics g) {\n   69:         super.paintComponent(g);\n   70  \n   71          //int panelWidth = getWidth();\n\nC:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy\\create\\EvolveShapes.java:\n  346  \n  347                  @Override\n  348:                 public void paintComponent(Graphics g) {\n  349  \n  350                      Graphics2D g2 = (Graphics2D) g;\n\n39 matches across 19 files\n",
+			"settings":
+			{
+				"buffer_size": 8535,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/org/alchemy/core/AlcSession.java",
+			"settings":
+			{
+				"buffer_size": 21005,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Torque2D.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 442.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Alex/Documents/Alchemy-master/src/org/alchemy",
+		"/C/Users/Alex/Documents/Alchemy-master/src/org/alchemy/create"
+	],
+	"file_history":
+	[
+		"/C/Users/Alex/Desktop/Alchemy/TEST.svg",
+		"/C/Users/Alex/Documents/Alchemy-master/src/org/alchemy/core/AlcMenuBar.java",
+		"/C/Users/Alex/Documents/Alchemy-master/src/org/alchemy/core/AlcCanvas.java",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/Colors",
+		"/C/Users/Alex/LightGame/Game/light/Profile.txt",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/LayerNumbers.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/HelperFunctions.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/drawing.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/Plots/TEST.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/WorldGenerationScripts/Plots.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/mouseControls.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/SVGParse.cs",
+		"/C/Users/Alex/LightGame/Game/light/data_quick.xml",
+		"/C/Users/Alex/LightGame/Game/light/data.xml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/KeyboardControls.cs",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/platformWin32/winWindow.cc",
+		"/C/Users/Alex/LightGame/Game/light/console.log",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/main.cs",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/platform/platformVideo.cc",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/platformEmscripten/EmscriptenOGLVideo.cpp",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/LightObjects.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/Scenes/CloseView.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/WorldGenerationScripts/LandManagement.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/Scenes/WorldMap.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Test/FoliageTest1.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/data.bin",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/Objects/Light.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/background.cs",
+		"/C/Users/Alex/LightGame/Light Raw Assets/MapLayouts/TEST.svg",
+		"/C/Users/Alex/LightGame/Game/light/modules/DebugMenu/1/main.cs",
+		"/C/users/alex/appdata/local/temp/sublime-sftp-browse-1558991974/GoogleCloud-Build/home/sarvalokakrt/bmminer-mix/driver-btm-c5.h",
+		"/C/users/alex/appdata/local/temp/sublime-sftp-browse-1558992082/GoogleCloud-Build/home/sarvalokakrt/bmminer-mix/driver-btm-c5.c",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/GoogleCloud-Build",
+		"/C/Users/Alex/Google Drive/Pictures/LightGame Concept Art/19-05-09 4.png.svg",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Test/FoliageTest1.asset - Copy.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Test/MossTest.asset.taml",
+		"/C/Users/Alex/Documents/Alchemy/grey.gpl",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Light/LightParticles.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Test/TESTBMP.asset.taml",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/Island/LandManagement.cc",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/2d/core/ImageFrameProviderCore.cc",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/2d/sceneobject/LiquidFunObject.cc",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/2d/sceneobject/TextSprite.cc",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Test/perspectiveGrassTest.asset.taml",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/graphics/gBitmap.cc",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/graphics/TextureManager.cc",
+		"/C/Users/Alex/Downloads/sample.pal",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/WorldGenerationScripts/terrainGen.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/WorldGenerationScripts/FoliageSystem.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Test/BGTest_2.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Test/CheckerFrames.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Test/BGTest.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/sceneWindow.cs",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/Island/LandManagement.h",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/Objects/ship.cs",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/2d/sceneobject/SceneObject_ScriptBinding.h",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/2d/sceneobject/SceneObject.h",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/Box2D/Dynamics/b2Body.h",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/2d/gui/SceneWindow.cc",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/2d/gui/SceneWindow.h",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/betterMovementBehavior.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/player.cs",
+		"/C/Users/Alex/Downloads/lib.cpp",
+		"/C/Users/Alex/LightGame/Light Raw Assets/MapLayouts/TEST2.svg",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/Objects/plant.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/LightPlantTextures/PlantVisualTest2.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/LightPlantTextures/PlantVisualTest3.asset.taml",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/platform/platformMemory.h",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/2d/core/ParticleSystem.h",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/mapGeneration/LandManagement.cc",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Test/Checker.asset.taml",
+		"/C/Users/Alex/LightGame/Engine/torque2d/.git/MERGE_MSG",
+		"/C/users/alex/appdata/local/temp/sublime-sftp-browse-1548777734/GoogleCloud/home/sarvalokakrt/PaperTrade/PaperTrade.py",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/2d/core/ParticleSystem.cc",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/2d/assets/ImageAsset.cc",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/assets/assetPtr.h",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/2d/sceneobject/SceneObjectSet.cc",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/memory/factoryCache.h",
+		"/C/users/alex/appdata/local/temp/sublime-sftp-browse-1548358125/GoogleCloud/home/sarvalokakrt/PaperTrade/PaperTrade.py",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/GoogleCloud",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/scene.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/Shapes/LanternProfile.svg",
+		"/C/Users/Alex/Google Drive/opti-mozjpeg-guetzli-webp/desktop.ini",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/Colors.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/LightObjects/LanternTopClose.asset.taml",
+		"/G/wifi/Wi-Fi-ABQ-BizLaw.xml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/LightPlantTextures/LightCloseView.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/UI/CloseViewBorder.asset.taml",
+		"/N/18-10-02/BillInfo.txt",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/AssetTags.Manifest.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/module.taml",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/mapGeneration/CellManager.cc",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/mapGeneration/MapGeneration.cc",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/Scenes/Edges.cs",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/scripts/inventory.cs",
+		"/C/Program Files (x86)/Activision/Call of Duty 4 - Modern Warfare/players/profiles/Alex/config_mp.cfg",
+		"/C/Program Files (x86)/Activision/Call of Duty 4 - Modern Warfare/players/Alex-backup/config_mp.cfg",
+		"/N/18-08-28/db041818.txt",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/MapPieces/MapPiece03.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/MapPieces/MapPiece02.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/MapPieces/MapPiece01.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Test/SoftCircle.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/TEST.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Obstacles/Boulder_1.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Obstacles/Log_1.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/TreeTextures/Base03.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/Shapes/Log_1.svg",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/Shapes/Boulder_1.svg",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/Shapes/Ship.svg",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/Shapes/PlantNodeTest.svg",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/Shapes/PlantNode.svg",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/persistence/taml/taml.dox",
+		"/C/Users/Alex/Desktop/CanvasResize.js",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/2d/scene/Scene.cc",
+		"/E/Users/Alex/Documents/Light/modules/LightModule/1/assets/Shapes/Ship.svg",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/LightObjects/LanternProfile.asset.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Ship/groundShip.asset.taml",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/assets/assetManager.cc",
+		"/C/Users/Alex/LightGame/Engine/torque2d/engine/source/assets/assetBase.h",
+		"/E/Users/Alex/Documents/Light/modules/LightModule/1/assets/images/Obstacles/Log.asset.taml",
+		"/E/Users/Alex/Documents/Light/modules/LightModule/1/assets/images/Test/PlantTest.asset.taml",
+		"/E/Users/Alex/Documents/Light/modules/LightModule/1/assets/images/Foliage/PlantVisualTest.asset.taml",
+		"/E/Users/Alex/Documents/Light/modules/LightModule/1/assets/images/LightObjects/LanternProfile.asset.taml",
+		"/E/Users/Alex/Documents/Light/Comp.taml",
+		"/E/Users/Alex/Documents/Light/test.taml",
+		"/C/Users/Alex/LightGame/Game/light/modules/LightModule/1/assets/images/Light/LightParticles_lightmap.asset.taml",
+		"/E/Users/Alex/Documents/Light/modules/LightModule/1/assets/images/Ship/groundShip.asset.taml",
+		"/E/Users/Alex/Documents/Light/modules/LightModule/1/module.taml"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+			"C:\\Users\\Alex\\Documents\\Alchemy-master\\src\\org\\alchemy",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\modules",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\LightGame\\Game\\light",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\LightGame\\Game\\light",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\LightGame\\Game\\light",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\LightGame\\Game\\light",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\LightGame\\Game\\light",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\LightGame\\Game\\light",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\LightGame\\Game\\light",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\LightGame\\Game\\light",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\LightGame\\Game\\light",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\LightGame\\Game\\light",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\Documents\\Light\\modules\\,C:\\Users\\Alex\\LightGame\\Game\\light\\modules\\LightModule\\1\\scripts",
+			"C:\\Users\\Alex\\Documents\\Light\\modules\\",
+			"C:\\Users\\Alex\\LightGame\\Engine\\torque2d\\engine\\source",
+			"C:\\Users\\Alex\\Documents\\Light\\modules\\",
+			"C:\\Users\\Alex\\Documents\\Light\\modules\\LightModule\\1\\scripts",
+			"C:\\Users\\Alex\\Torque2DLight\\Torque2D\\engine\\source",
+			"C:\\Users\\Alex\\Documents\\Light\\modules\\LightModule\\1\\scripts",
+			"C:\\Users\\Alex\\Torque2DLight\\Torque2D\\engine\\source",
+			"C:\\Users\\Alex\\Documents\\Light\\modules\\LightModule\\1\\scripts",
+			"C:\\Users\\Alex\\Documents\\Light\\modules\\LightModule",
+			"C:\\Users\\Alex\\Torque2DLight\\Torque2D\\engine\\source",
+			"C:/Users/Alex/Documents/Light/modules/LightModule/scripts",
+			"\"C:\\Users\\Alex\\Documents\\Light\\modules\\LightModule\\scripts\"",
+			"C:\\Users\\Alex\\Documents\\Light\\modules\\LightModule\\scripts",
+			"C:\\Users\\Alex\\Torque2DLight\\Torque2D\\engine\\source",
+			"C:\\Users\\Alex\\Documents\\Light",
+			"C:\\Users\\Alex\\Torque2DLight\\Torque2D\\engine\\source",
+			"C:\\Users\\Alex\\Documents\\Light",
+			"<project>,-source",
+			"<project>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"paintcomponent",
+			"save page",
+			"loadback",
+			"unload",
+			"hide background",
+			"hide",
+			"Video Initialization:",
+			"version",
+			"opengl",
+			"quickSave",
+			"jointid",
+			"referenceId",
+			"175462128",
+			"blocked",
+			"color",
+			"drawcalls",
+			"b",
+			"404416784",
+			"drawcalls",
+			"406007088",
+			"406742896",
+			"108896292",
+			"23362400",
+			"radius",
+			"108646712",
+			"108653612",
+			"radius",
+			"-1",
+			"fount",
+			"script",
+			"PROFILE_STOP",
+			"PROFILE_BEGIN",
+			"scrip",
+			"script",
+			"test",
+			"TEST",
+			"profilerMarkerEnable",
+			"true",
+			"lantern",
+			"lanternshard",
+			"FoliageTest1",
+			"128",
+			"TestTop",
+			"_lightmap",
+			"waveUpdate",
+			"liquidfun",
+			"acquireAsset",
+			"TestTop",
+			"Angle",
+			"\t",
+			",",
+			"PFOffsets",
+			"offsets",
+			"x",
+			"submitquad",
+			"TestTop",
+			"glTexImage2D",
+			"palett",
+			"gltexture",
+			"Palettized",
+			"GPalette",
+			"glTexImage2D",
+			"submitQuad",
+			"sumbmitQuad",
+			"sumbitQuad",
+			"removeshard",
+			"InnerLight",
+			"BGTest",
+			"newBG",
+			"Foliage",
+			"$ShipObjectLayer",
+			"$GroundLayerDirt",
+			"$lightplantlayer",
+			"Foliage",
+			"512",
+			"GrassTest",
+			"setLinearVelocityY",
+			"random",
+			"mousevolume",
+			"clicknode",
+			"LandManagerClass",
+			"dynamic",
+			"PlantVisualTest2",
+			"PlantVisualTest",
+			"info",
+			"Info",
+			"info",
+			"Info",
+			"info",
+			"Info",
+			"info",
+			"Info",
+			"info",
+			"Info",
+			"info",
+			"facePtr",
+			"colormanager",
+			"(*it)",
+			"<<<<<<< HEAD",
+			"AssetManager",
+			"clear",
+			"imageframeprovider",
+			"dglDraw3dBillboard",
+			"lantern",
+			"moveMap",
+			"spawnshard",
+			"<",
+			">",
+			",",
+			"<",
+			"LanternPosition",
+			"getClosestShard",
+			"CurrentTimerMax",
+			"ShardTimer",
+			"ClosestShard",
+			"getClosestShard",
+			"ClosestShard",
+			"getClosestShard",
+			"gathering",
+			"handleLantern",
+			"echo",
+			"Gathering",
+			"handleLantern",
+			"Shards",
+			"sendShardToLantern",
+			"LightShard",
+			"addshardto",
+			"smoothstep"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"();\n",
+			" ",
+			"",
+			"answerText",
+			"a",
+			"a[0-9]",
+			"a"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/org/alchemy/create/PolianPressureShapes.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4618,
+								4618
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "java"
+							},
+							"git_gutter_is_enabled": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1755.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/org/alchemy/core/AlcCanvas.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 72102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44569,
+								44575
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "java"
+							},
+							"git_gutter_is_enabled": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8535,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										188,
+										197
+									],
+									[
+										222,
+										231
+									],
+									[
+										524,
+										533
+									],
+									[
+										863,
+										877
+									],
+									[
+										913,
+										927
+									],
+									[
+										1174,
+										1188
+									],
+									[
+										1399,
+										1413
+									],
+									[
+										1475,
+										1489
+									],
+									[
+										1668,
+										1682
+									],
+									[
+										1864,
+										1878
+									],
+									[
+										2033,
+										2047
+									],
+									[
+										2095,
+										2109
+									],
+									[
+										2318,
+										2332
+									],
+									[
+										2368,
+										2382
+									],
+									[
+										2649,
+										2663
+									],
+									[
+										2810,
+										2824
+									],
+									[
+										3078,
+										3092
+									],
+									[
+										3291,
+										3305
+									],
+									[
+										3431,
+										3445
+									],
+									[
+										3687,
+										3701
+									],
+									[
+										3943,
+										3957
+									],
+									[
+										4153,
+										4167
+									],
+									[
+										4406,
+										4420
+									],
+									[
+										4456,
+										4470
+									],
+									[
+										4753,
+										4767
+									],
+									[
+										4811,
+										4825
+									],
+									[
+										5088,
+										5102
+									],
+									[
+										5138,
+										5152
+									],
+									[
+										5496,
+										5510
+									],
+									[
+										5786,
+										5800
+									],
+									[
+										6040,
+										6054
+									],
+									[
+										6307,
+										6321
+									],
+									[
+										6557,
+										6571
+									],
+									[
+										6807,
+										6821
+									],
+									[
+										7149,
+										7163
+									],
+									[
+										7399,
+										7413
+									],
+									[
+										7571,
+										7585
+									],
+									[
+										7812,
+										7826
+									],
+									[
+										7862,
+										7876
+									],
+									[
+										8130,
+										8144
+									],
+									[
+										8180,
+										8194
+									],
+									[
+										8411,
+										8425
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								686,
+								686
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "find results"
+							},
+							"detect_indentation": false,
+							"git_gutter_is_enabled": false,
+							"incomplete_sync": null,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 915.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/org/alchemy/core/AlcSession.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21005,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5723,
+								5723
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "java"
+							},
+							"git_gutter_is_enabled": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2500.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 152.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 150.0
+	},
+	"pinned_build_system": "",
+	"project": "Alch.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Alex/Documents/StockTradingExperiments/stockProject.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

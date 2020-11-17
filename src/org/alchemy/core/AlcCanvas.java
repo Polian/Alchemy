@@ -148,6 +148,9 @@ public class AlcCanvas extends JPanel implements AlcConstants, MouseListener, Mo
     //////////////////////////////////////////////////////////////
     /** An image of the canvas drawn behind active shapes */
     private Image canvasImage;
+    private Image blankCanvasImage;
+    private Image savedCanvasImage;
+    private boolean backgroundImageSet;
     /** Image than can be drawn on the canvas */
     private BufferedImage image;
     private BufferedImage zoomedImage;
@@ -171,7 +174,7 @@ public class AlcCanvas extends JPanel implements AlcConstants, MouseListener, Mo
     /** Graphics Configuration - updated everytime the volatile buffImage is refreshed */
     private GraphicsConfiguration gc = ge.getDefaultScreenDevice().getDefaultConfiguration();
     /** A Vector based canvas for full redrawing */
-    VectorCanvas vectorCanvas;
+    public VectorCanvas vectorCanvas;
     /** Previous cursor */
     Cursor oldCursor;
     /** Automatic toggling of the toolbar */
@@ -227,6 +230,8 @@ public class AlcCanvas extends JPanel implements AlcConstants, MouseListener, Mo
         pm.pen.setFrequencyLater(200);
 
         this.setCursor(CURSOR_CROSS);
+        
+        backgroundImageSet = false;
     }
 
     /** Bitmap Canvas
@@ -1270,6 +1275,7 @@ public class AlcCanvas extends JPanel implements AlcConstants, MouseListener, Mo
      * @param image Image to be drawn
      */
     public void setImage(BufferedImage image) {
+        
         this.image = image;
         if(this.image!=null){
            this.zoomedImage = getZoomedImage(this.image);
@@ -1277,11 +1283,22 @@ public class AlcCanvas extends JPanel implements AlcConstants, MouseListener, Mo
             this.zoomedImage =null;
         }
         canvasImage = renderCanvas(true);
+        
         if (image != null) {
             Alchemy.menuBar.unloadBackgroundImageItem.setEnabled(true);
         } else {
             Alchemy.menuBar.unloadBackgroundImageItem.setEnabled(false);
         }
+        
+        if (this.backgroundImageSet == false){
+            this.setBlankCanvasImage();
+            this.backgroundImageSet = true;
+        }
+    }
+    
+    public void setBlankCanvasImage(){
+        canvasImage = renderCanvas(true);
+        blankCanvasImage = canvasImage.getScaledInstance(canvasImage.getWidth(null), -1, Image.SCALE_DEFAULT);
     }
     
     private BufferedImage getZoomedImage(BufferedImage image){
@@ -1308,6 +1325,14 @@ public class AlcCanvas extends JPanel implements AlcConstants, MouseListener, Mo
      * @return  The current image
      */
     public Image getImage() {
+        if(isCanvasZoomed()){
+            return this.zoomedImage;
+        }else{
+            return this.image;
+        }
+    }
+    
+    public BufferedImage getBufferedImage(){
         if(isCanvasZoomed()){
             return this.zoomedImage;
         }else{
@@ -1824,6 +1849,17 @@ public class AlcCanvas extends JPanel implements AlcConstants, MouseListener, Mo
     }
 
     public void penTock(long arg0) {
+    }
+    
+    public void hideShapes(){
+        savedCanvasImage = canvasImage.getScaledInstance(-1, -1, Image.SCALE_DEFAULT);
+        canvasImage = blankCanvasImage;
+        this.redraw();
+    }
+    
+    public void showShapes(){
+        canvasImage = savedCanvasImage;
+        this.redraw();
     }
 
     /** Vector Canvas

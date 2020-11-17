@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE plugin PUBLIC "-//JPF//Java Plug-in Manifest 1.0" "http://jpf.sourceforge.net/plugin_1_0.dtd">
+
+<!-- The path to the GameDev.java and the module version number -->
+<plugin id="org.alchemy.affect.GameDev" version="1.0.0">
+
+    <!-- The Alchemy core module is required by this module -->
+    <requires> 
+        <import plugin-id="org.alchemy.core"/> 
+    </requires> 
+    
+    <runtime>
+        <!-- This is where the code lives -->
+        <library id="GameDev" path="/" type="code">
+            <export prefix="*" />
+        </library>
+        <!-- Resources (such as icons and image files) are located in the data folder -->
+        <library type="resources" path="data/" id="data" />
+    </runtime>
+
+    <!-- This module extends the core module, is a 'Affect' module, and has the id 'GameDev' -->
+    <extension plugin-id="org.alchemy.core" point-id="Affect" id="GameDev">
+        <!-- The path to this module's class -->     
+        <parameter id="class" value="org.alchemy.affect.GameDev"/> 
+        <!-- The name of this module -->        
+        <parameter id="name" value="GameDev"/> 
+        <!-- The description of this module (appears in a tooltip on rollover) -->        
+        <parameter id="description" value="GameDev Module Description" />        
+        <!-- The icon to appear in the popup menu -->        
+        <parameter id="icon" value="icon.png" />
+    </extension>
+    
+</plugin>

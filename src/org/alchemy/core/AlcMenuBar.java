@@ -288,11 +288,22 @@ class AlcMenuBar extends JMenuBar implements AlcConstants {
                         }
                     if (image != null) {
                         Rectangle visibleRect = Alchemy.canvas.getVisibleRect();
-                        int x = (visibleRect.width - image.getWidth(null)) / 2;
-                        int y = (visibleRect.height - image.getHeight(null)) / 2;
+                        
+                        // These are the scaled image dimensions
+                        // Add a border to the top and bottom
+                        int border = 100;
+                        float ratio = (float)image.getWidth(null) / (float)image.getHeight(null);
+                        int imageHeight = visibleRect.height-border;
+                        int imageWidth = (int)(imageHeight*ratio);
+                        
+//                        int x = (visibleRect.width - image.getWidth(null)) / 2;
+//                        int y = (visibleRect.height - image.getHeight(null)) / 2;
+                        int x = (visibleRect.width - imageWidth) / 2;
+                        int y = (visibleRect.height - imageHeight) / 2;
                         Alchemy.canvas.setImageLocation(x, y);
                         Alchemy.canvas.setImageDisplay(true);
-                        Alchemy.canvas.setImage(AlcUtil.getBufferedImage(image));
+                        
+                        Alchemy.canvas.setImage(AlcUtil.scaleImage(AlcUtil.getBufferedImage(image), imageWidth, imageHeight));
                         Alchemy.canvas.redraw();
 
                     } else {
@@ -871,6 +882,8 @@ class AlcMenuBar extends JMenuBar implements AlcConstants {
                 }
                 exportDialog.showWindow(file, format);
             }
+            
+            
         }
     }
 

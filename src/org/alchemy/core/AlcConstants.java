@@ -50,7 +50,7 @@ public interface AlcConstants {
     /** Full name of the Java version eg 1.5.0_11 */
     static final String JAVA_VERSION_NAME = System.getProperty("java.version");
     /** Version of Java that's in use, whether 1.1 or 1.3 or whatever stored as a float */
-    static final float JAVA_VERSION = new Float(JAVA_VERSION_NAME.substring(0, 3)).floatValue();
+    static final float JAVA_VERSION = Float.valueOf(JAVA_VERSION_NAME.substring(0, 2));
     /** Name of the OS */
     static final String OS_NAME = System.getProperty("os.name");
     /** The users name */

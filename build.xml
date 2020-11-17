@@ -88,6 +88,43 @@
     nbproject/build-impl.xml file. 
 
     -->
+    <!-- http://frank.zinepal.com/unsign-a-jar-with-ant -->
+    <macrodef name="unsignjar">
+        
+        <attribute name="jar"/>
+            
+        <sequential>
+            <!-- Remove any existing signatures from a JAR file. -->
+            <tempfile prefix="usignjar-" destdir="${java.io.tmpdir}" property="temp.file"/>
+            <echo message="Removing signatures from JAR: @{jar}"/>
+            <mkdir dir="${temp.file}"/>
+                
+            <unjar src="@{jar}" dest="${temp.file}">
+                <patternset>
+                    <include name="**"/>
+                    <exclude name="META-INF/*.SF"/>
+                    <exclude name="META-INF/*.DSA"/>
+                    <exclude name="META-INF/*.RSA"/>
+                </patternset>
+            </unjar>
+                
+            <delete file="@{jar}" failonerror="true"/>
+                
+            <!-- Touch it in case the file didn't have a manifest.
+            Otherwise the JAR task below will fail if the manifest 
+            file doesn't exist. -->
+            <mkdir dir="${temp.file}/META-INF"/>
+            <touch file="${temp.file}/META-INF/MANIFEST.MF"/>
+                
+            <jar destfile="@{jar}" 
+                 basedir="${temp.file}" 
+                 includes="**" 
+                 manifest="${temp.file}/META-INF/MANIFEST.MF"/>
+                
+            <delete dir="${temp.file}" failonerror="true"/>
+        </sequential>
+    </macrodef>
+    
     <target name="-pre-jar">
         <!-- Ant config lets us loop & use if statements -->
         <taskdef resource="net/sf/antcontrib/antcontrib.properties">
@@ -122,13 +159,35 @@
         <unjar src="${file.reference.miglayout.jar}" dest="${build.classes.dir}"/>
 
         <!-- The mass of batik libraries -->
-        <unjar src="${file.reference.batik-awt-util.jar}" dest="${build.classes.dir}"/>
-        <unjar src="${file.reference.batik-dom.jar}" dest="${build.classes.dir}"/>
-        <unjar src="${file.reference.batik-ext.jar}" dest="${build.classes.dir}"/>
-        <unjar src="${file.reference.batik-svggen.jar}" dest="${build.classes.dir}"/>
-        <unjar src="${file.reference.batik-util.jar}" dest="${build.classes.dir}"/>
-        <unjar src="${file.reference.batik-xml.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-awt-util-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-dom-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-ext-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-svggen-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-util-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-xml-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-constants-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-parser-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-svg-dom-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-anim-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-css-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-awt-util-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-i18n-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-bridge-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-gvt-1.13.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-script-1.13.jar}" dest="${build.classes.dir}"/>
         <unjar src="${file.reference.xml-apis.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.batik-codec-1.13.jar}" dest="${build.classes.dir}"/>
+        
+        <!--<unsignjar jar="${file.reference.org.w3c.dom.svg-1.1.0.v201011041433.jar}"/>-->
+        <!--<unsignjar jar="${file.reference.org.w3c.dom.smil-1.0.1.v200903091627.jar}"/>-->
+        <!--<unsignjar jar="${file.reference.org.w3c.css.sac-1.3.1.v200903091627.jar}"/>-->
+        <unjar src="${file.reference.org.w3c.dom.svg-1.1.0.v201011041433.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.org.w3c.dom.smil-1.0.1.v200903091627.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.org.w3c.css.sac-1.3.1.v200903091627.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.xmlgraphics-commons-2.4.jar}" dest="${build.classes.dir}"/>
+        <unjar src="${file.reference.jsap-2.1.jar}" dest="${build.classes.dir}"/>
+        
+        
 
         
         <!-- Copy the module folder over to be built.-->
@@ -146,7 +205,7 @@
                
                
         <!-- CREATES -->
-        <for list="shapes,typeShapes,inverseShapes,micShapes,medianShapes,speedShapes,xShapes,traceShapes,detachShapes,scrawlShapes,pullShapes,pressureShapes,splatterShapes,ribbonShapes,pitchShapes,evolveShapes" param="create">
+        <for list="shapes,typeShapes,inverseShapes,micShapes,medianShapes,speedShapes,xShapes,traceShapes,detachShapes,scrawlShapes,pullShapes,pressureShapes,PolianPressureShapes,splatterShapes,ribbonShapes,pitchShapes,evolveShapes" param="create">
             <sequential>
                 <copy todir="${build.dir}/modules/@{create}/org/alchemy/create">
                     <!-- Include all files that begin with the module name -->
@@ -157,7 +216,7 @@
         
         
         <!-- AFFECTS -->
-        <for list="mirror,blindness,random,micExpand,repeat,displace,colorSwitcher,shapeSwap,gradient,smooth,limit" param="affect">
+        <for list="GameDev,mirror,blindness,random,micExpand,repeat,displace,colorSwitcher,shapeSwap,gradient,smooth,limit" param="affect">
             <sequential>
                 <copy todir="${build.dir}/modules/@{affect}/org/alchemy/affect">
                     <!-- Include all files that begin with the module name -->
@@ -366,23 +425,22 @@
         Launch4j needs to be installed into the Program Files folder
         http://launch4j.sourceforge.net/
         -->
-        <property name="launch4j.dir" location="C:/Program Files/Launch4j" />
+        <property name="launch4j.dir" location="C:\Program Files (x86)\Launch4j" />
         <taskdef name="launch4j"
             classname="net.sf.launch4j.ant.Launch4jTask"
-            classpath="${launch4j.dir}/launch4j.jar
-                :${launch4j.dir}/lib/xstream.jar" />
+            classpath="${launch4j.dir}\launch4j.jar
+                :${launch4j.dir}\lib\xstream.jar" />
         <launch4j>
             <config 
                 dontWrapJar="false"
                 headerType="console" 
                 jarPath="${dist.jar}" 
-                outfile="${alchemy.dir}/Alchemy.exe" 
+                outfile="${alchemy.dir}\Alchemy.exe" 
                 errTitle="Java Install Required"
                 priority="normal"
                 downloadUrl="http://java.com/download"
-                customProcName="true"
                 stayAlive="false"
-                icon="${basedir}/res/Alchemy.ico">
+                icon="${basedir}\res\Alchemy.ico">
                 <jre
                 minVersion="1.5.0"
                 dontUsePrivateJres="false"
@@ -408,13 +466,17 @@
         <!-- JPen -->
         <copy file="${basedir}/lib/jpen/jpen-2-2.dll" todir="${alchemy.dir}/lib"/>
         <copy file="${basedir}/lib/jpen/jpen-2-2-64.dll" todir="${alchemy.dir}/lib"/>
+        <copy file="${basedir}/lib/jpen/libjpen-2-2.so" todir="${alchemy.dir}/lib"/>
+        <copy file="${basedir}/lib/jpen/libjpen-2-2-ia64.so" todir="${alchemy.dir}/lib"/>
+        <copy file="${basedir}/lib/jpen/libjpen-2-2-x86_64.so" todir="${alchemy.dir}/lib"/>
+        <copy file="${basedir}/lib/jpen/libjpen-2-3.jnilib" todir="${alchemy.dir}/lib"/>
         
         <!-- Delete the Alchemy Jar file -->
         <delete file="${dist.dir}/Alchemy.jar"/>
 
         <!-- Create a .zip for distribution -->
-        <zip destfile="${dist.dir}/Alchemy-${version.number}.zip"
-            basedir="${dist.dir}"
+        <zip destfile="${dist.dir}\Alchemy-${version.number}.zip"
+            basedir="${dist.dir}\Alchemy"
         />
         
     </target>
